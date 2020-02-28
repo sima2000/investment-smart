@@ -1,6 +1,8 @@
 body{
 margin: 0 auto;
 height:100%;
+font-family: 'Barlow Semi Condensed',sans-serif;
+scroll-behavior: smooth;
 }
 
 .Top{
@@ -8,6 +10,7 @@ display:inline-grid;
 align-items: center;
 grid-template-columns: auto auto;
 grid-column-gap: 300px;
+margin: 0px;
 padding: 10px;
 background: #09071c;
 color: white;
@@ -35,4 +38,153 @@ padding:15px;
 width: 100%;
 text-align:center;
 
+}
+.intro{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Chris.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+text-align: center;
+min-height: 400px;
+padding-top: 150px;
+color: white;
+}
+
+.intro p {
+font-size: 20px;
+}
+.intro h1 {
+  font-size: 50px;
+}
+.logo {
+  padding: 10px 25px;
+}
+ #introbutton {
+  font-size: 20px;
+  padding:15px;
+  width: 200px;
+  border: 2px solid #CE9510;
+  background-color: #CE9510;
+}
+
+.grid-container {
+ display: grid;
+ justify-content: center;
+grid-template-columns: auto auto auto;
+grid-column-gap: 20px;
+padding: 10px;
+}
+.grid-item {
+  border: 1px solid #CDCDCD;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width:250px;
+}
+
+.grid-item p {
+color:#CDCDCD;
+}
+.services h2 {
+  text-align: center;
+  font-size: 40px;
+}
+hr {
+  border: 0;
+  width: 50px;
+  border-top: 1px solid #CE9510;
+}
+
+#image {
+width: 50%;
+}
+
+.gridcontainer {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+.Mission {
+  padding:20px 10px 20px 250px;
+  width: 100%;
+  background: #F2F3F8;
+
+}
+.Benefits {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/computer.jpeg");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.Benefits p {
+  padding: 20px;
+  font-size: 17px;
+}
+
+.Benefits ul {
+  font-size: 17px;
+}
+
+.Benefits ul li{
+  list-style: none;
+  text-decoration:none;
+}
+
+.Benefits h4 {
+  font-size: 35px;
+  padding-right: -15px;
+}
+
+button{
+font-size: 20px;
+background-color: #CD9510;
+border-color:#CD9510;
+color:white;
+}
+.GridContainer {
+display: grid;
+grid-template-columns: auto auto;
+grid-column-gap: 20px;
+}
+
+.WhyUs {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/collect.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+  height: 40rem;
+  margin-right: 300px;
+  padding-left: 200px;
+  color: white;
+}
+
+.WhyUs h3 {
+  font-size: 30px;
+}
+.WhyUs h4 {
+  font-size: 20px;
+  color: #CDCDCD;
+}
+
+.Clip {
+  font-size: 17px;
+  text-align: justify;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/keyboard.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 45px;
+
+}
+.Clip p {
+  color: #CDCDCD;
+  text-align: center;
 }
